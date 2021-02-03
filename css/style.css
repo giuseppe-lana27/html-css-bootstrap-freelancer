@@ -78,3 +78,12 @@ p{
   color: white;
   text-align: center;
 }
+.footer_bottom{
+  background-color: #2C3E50;
+  text-align: center;
+  color: white;
+}
+.footer_bottom h5{
+  line-height: 100px;
+}
+/* /footer */
