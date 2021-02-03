@@ -1,3 +1,10 @@
+/* typo */
+h1{
+  color: white;
+}
+p{
+  margin-top: 20px;
+}
 /* header */
 #bg_blue{
   background-color: #2C3E50;
@@ -9,9 +16,6 @@
 .nav_bar{
   float: right;
   width: 50%;
-}
-h1{
-  color: white;
 }
 ul{
   margin-top: 25px;
@@ -61,9 +65,7 @@ ul li a{
 #bg_green{
   background-color: #1ABC9C;
 }
-p{
-  margin-top: 20px;
-}
+
 .data_user{
   margin-top: 20px;
 }
