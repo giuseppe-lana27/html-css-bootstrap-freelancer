@@ -36,7 +36,7 @@ ul li a{
 .jumbotron_img{
   width: 400px;
   height: 400px;
-  background-color: gold;  
+  background-color: gold;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,4 +52,10 @@ ul li a{
   border-radius: 5px;
   display: inline-block;
   margin: 10px;
+}
+#bg_green{
+  background-color: #1ABC9C;
+}
+p{
+  margin-top: 20px;  
 }
