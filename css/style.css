@@ -67,6 +67,14 @@ p{
 .data_user{
   margin-top: 20px;
 }
-h3{
+.underlined{
   border-bottom: 1px solid lightgrey;
+}
+/* /main */
+/* footer */
+.footer_top{
+  background-color: #3A546D;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
 }
