@@ -3,12 +3,19 @@
   height: 120px;
   background-color: #2C3E50;
 }
+.title{
+  float: left;
+  width: 50%;
+}
+.nav_bar{
+  float: right;
+  width: 50%;
+}
 h1{
-  display: inline-block;
   color: white;
 }
 ul{
-  display: inline-block;
+  margin-top: 25px; 
   list-style: none;
   vertical-align: middle;
 }
