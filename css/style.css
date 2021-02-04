@@ -136,7 +136,22 @@ ul li a{
   font-size: 20px;
   color: #fff;
   text-align: left;
+  margin-bottom: 40px;
 }
+.btn_download{
+  background-color: #1ABC9C;
+  border: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
 .data_user{
   margin-top: 20px;
 }
