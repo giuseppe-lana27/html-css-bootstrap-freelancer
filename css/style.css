@@ -16,6 +16,10 @@ body{
 /* header */
 .header_top{
   padding: 20px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 .title{
   color: #fff;
@@ -35,7 +39,7 @@ ul li a{
   color: white;
 }
 .header_hero{
-  padding: 60px 0;
+  padding: 120px 0;
   color: #fff;
 }
 .hero img{
@@ -45,8 +49,29 @@ ul li a{
   font-size: 64px;
   font-weight: 600;
 }
+.hero p{
+  font-size: 20px;
+}
 .star{
   font-size: 30px;
+}
+.star::before{
+  content: '';
+  width: 100%;
+  max-width: 20%;
+  border: 4px solid #fff;
+  border-radius: 16px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.star::after{
+  content: '';
+  width: 100%;
+  max-width: 20%;
+  border: 4px solid #fff;
+  border-radius: 16px;
+  vertical-align: middle;  
+  display: inline-block;
 }
 /* /header */
 /* main */
