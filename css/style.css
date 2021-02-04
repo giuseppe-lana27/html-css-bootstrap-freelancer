@@ -1,26 +1,28 @@
 /* typo */
-h1{
-  color: white;
-}
 p{
   margin-top: 20px;
 }
-/* header */
-#bg_blue{
+
+/* Mix */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.bg_main{
   background-color: #2C3E50;
 }
-.title{
-  float: left;
-  width: 50%;
+.bg_secondary{
+  background-color: #1ABC9C;
 }
-.nav_bar{
-  float: right;
-  width: 50%;
+/* header */
+.header_top{
+  padding: 20px 0;
+}
+.title{
+  color: #fff;
 }
 ul{
   margin-top: 25px;
   list-style: none;
-  vertical-align: middle;
 }
 ul li{
   display: inline-block;
@@ -32,19 +34,19 @@ ul li a{
   text-decoration: none;
   color: white;
 }
-.hero{
-  height: 600px;
-  background-color: #1ABC9C;
-  position: relative;
+.header_hero{
+  padding: 60px 0;
+  color: #fff;
 }
-.jumbotron_img{
-  width: 400px;
-  height: 400px;
-  background-color: gold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.hero img{
+  height: 240px;
+}
+.hero h1{
+  font-size: 64px;
+  font-weight: 600;
+}
+.star{
+  font-size: 30px;
 }
 /* /header */
 /* main */
