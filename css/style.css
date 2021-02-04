@@ -21,8 +21,28 @@ body{
   top: 0;
   z-index: 1;
 }
+.nav_top{
+  margin: 25px 0;
+  text-transform: uppercase;
+  color: white;
+}
 .title{
   color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;  
+}
+.btn_nav{
+  background: #1ABC9C;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 15px 12px;
+  margin-left: 10px;
+}
+.nav_top a{
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
 }
 ul{
   margin-top: 25px;
